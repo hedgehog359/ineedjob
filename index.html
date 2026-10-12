@@ -1,0 +1,1214 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Amir Khauatmekh, System Analyst</title>
+<meta name="description" content="System Analyst: integrations and fintech. 4+ years in lending, BNPL, insurance and HR-tech. Open to offers.">
+<link rel="canonical" href="https://hedgehog359.github.io/ineedjob/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A6A5B'/%3E%3Ctext x='16' y='21.5' font-family='Arial,sans-serif' font-weight='700' font-size='14' text-anchor='middle' fill='white'%3EAK%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hedgehog359.github.io/ineedjob/">
+<meta property="og:title" content="Amir Khauatmekh, System Analyst">
+<meta property="og:description" content="System Analyst: integrations and fintech. 4+ years in lending, BNPL, insurance and HR-tech. Open to offers.">
+<meta property="og:image" content="https://hedgehog359.github.io/ineedjob/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+html { color-scheme: light; -webkit-text-size-adjust: 100%; }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body { margin: 0; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Unbounded:wght@500;600&display=swap">
+<style>
+/* Layout: a spec sheet. Section labels sit in a narrow left margin, content on the right; the hero pairs the name with a YAML contract card. */
+:root {
+  --paper: #EDF0EC;
+  --sheet: #F8F9F6;
+  --ink: #14201B;
+  --muted: #55625B;
+  --rule: #C9D2CB;
+  --accent: #0A6A5B;
+  --accent-ink: #FFFFFF;
+  --signal: #A35F08;
+  --bad: #B0372F;
+  --code-bg: #15201C;
+  --code-rule: #26332E;
+  --code-fg: #D5DED9;
+  --code-key: #8ED6C3;
+  --code-str: #EFD29A;
+  --code-com: #7E8E86;
+  --code-sig: #F2B04F;
+  --f-display: "Unbounded", "Golos Text", system-ui, sans-serif;
+  --f-body: "Golos Text", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E1412; --sheet: #141C19; --ink: #E1E8E3; --muted: #97A49D; --rule: #2A3631;
+    --accent: #4DC2A9; --accent-ink: #06201A; --signal: #E8A847; --bad: #F0806F;
+    --code-bg: #18231F; --code-rule: #2B3934;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E1412; --sheet: #141C19; --ink: #E1E8E3; --muted: #97A49D; --rule: #2A3631;
+  --accent: #4DC2A9; --accent-ink: #06201A; --signal: #E8A847; --bad: #F0806F;
+  --code-bg: #18231F; --code-rule: #2B3934;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.6 var(--f-body);
+  -webkit-font-smoothing: antialiased;
+}
+body.lang-en .ru, body:not(.lang-en) .en { display: none !important; }
+
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: 20px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+/* top bar */
+.top { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 20px; }
+.top-name { font: 500 13px/1 var(--f-mono); color: var(--muted); letter-spacing: .02em; }
+.lang { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.lang button {
+  font: 500 12px/1 var(--f-mono); letter-spacing: .08em; padding: 8px 12px;
+  background: transparent; color: var(--muted); border: 0; cursor: pointer;
+}
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+/* hero */
+.hero {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 56px; align-items: center; padding-block: 40px 72px;
+}
+.hero-text { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+.status {
+  display: inline-flex; align-items: center; gap: 10px; align-self: flex-start;
+  font: 500 12px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink);
+}
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--signal); box-shadow: 0 0 0 0 var(--signal); animation: ping 2.4s ease-out infinite; }
+@keyframes ping { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--signal) 55%, transparent); } 80%, 100% { box-shadow: 0 0 0 9px transparent; } }
+h1 {
+  font: 600 clamp(2.3rem, 6.2vw, 4.1rem)/1.04 var(--f-display);
+  letter-spacing: -.02em; margin: 0; text-wrap: balance;
+}
+.role { font: 500 1.2rem/1.4 var(--f-body); margin: 0; }
+.role span { color: var(--muted); font-weight: 400; }
+.lead { margin: 0; max-width: 58ch; color: var(--muted); font-size: 1.05rem; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 6px;
+  font: 500 15px/1.2 var(--f-body); text-decoration: none; border: 1px solid var(--ink); color: var(--ink);
+  transition: transform .15s ease, background-color .15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn svg { width: 16px; height: 16px; flex: none; }
+
+/* contract card */
+.card { background: var(--code-bg); color: var(--code-fg); border-radius: 10px; min-width: 0; overflow: hidden; }
+.card-bar {
+  display: flex; justify-content: space-between; gap: 12px; padding: 12px 18px;
+  border-bottom: 1px solid var(--code-rule); font: 400 12px/1 var(--f-mono); color: var(--code-com);
+}
+.card-bar b { color: var(--code-fg); font-weight: 500; }
+.card pre {
+  margin: 0; padding: 18px 20px 22px; overflow-x: auto;
+  font: 400 13.5px/1.75 var(--f-mono); tab-size: 2;
+}
+.k { color: var(--code-key); }
+.s { color: var(--code-str); }
+.c { color: var(--code-com); }
+.sig { color: var(--code-sig); font-weight: 500; }
+
+/* sections */
+.sec {
+  display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 32px;
+  padding-block: 52px; border-top: 1px solid var(--rule);
+}
+.sec h2 { font: 600 1rem/1.3 var(--f-display); margin: 0; letter-spacing: -.005em; }
+.sec-note { display: block; margin-top: 8px; font: 400 12px/1.5 var(--f-mono); color: var(--muted); }
+.sec-body { min-width: 0; }
+
+/* approach */
+.principles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 44px; }
+.principles li { padding-block: 20px; border-top: 1px solid var(--rule); display: grid; gap: 8px; align-content: start; }
+.principles li:nth-child(-n+2) { border-top: 0; padding-top: 0; }
+.principles h3 { font: 600 1rem/1.35 var(--f-display); margin: 0; letter-spacing: -.005em; text-wrap: balance; }
+.principles p { margin: 0; color: var(--muted); max-width: 60ch; }
+.from { font: 400 12px/1.4 var(--f-mono); color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
+.job li::marker { color: var(--accent); }
+
+/* experience */
+.job { padding-block: 26px; border-bottom: 1px solid var(--rule); }
+.job:first-child { padding-top: 0; }
+.job:last-child { border-bottom: 0; padding-bottom: 0; }
+.job-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; }
+.job h3 { font: 600 1.1rem/1.3 var(--f-display); margin: 0; }
+.job h3 span { font: 400 1rem/1.3 var(--f-body); color: var(--muted); margin-left: 6px; }
+.dates { font: 400 13px/1.3 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ctx { margin: 6px 0 12px; color: var(--muted); font-size: .95rem; max-width: 70ch; }
+.job ul { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; max-width: 72ch; }
+
+/* stack */
+.stack { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 14px 24px; margin: 0; }
+.stack dt { font: 500 12px/1.6 var(--f-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); padding-top: 2px; }
+.stack dd { margin: 0; }
+.basic { color: var(--muted); }
+
+/* misc facts */
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; }
+.facts h3 { font: 500 12px/1.4 var(--f-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 10px; }
+.facts p { margin: 0 0 8px; }
+.facts p:last-child { margin-bottom: 0; }
+
+/* contact */
+.contact { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 32px; display: grid; gap: 18px; }
+.contact-title { font: 600 clamp(1.5rem, 3.4vw, 2.1rem)/1.15 var(--f-display); margin: 0; letter-spacing: -.015em; text-wrap: balance; }
+.contact p { margin: 0; max-width: 62ch; }
+.handle { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font: 500 14px/1 var(--f-mono); }
+.handle code { font: inherit; padding: 8px 10px; border: 1px dashed var(--rule); border-radius: 6px; user-select: all; }
+.copy {
+  font: 500 12px/1 var(--f-mono); padding: 9px 12px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--rule); background: transparent; color: var(--ink);
+}
+.copy-msg { font: 400 12px/1 var(--f-mono); color: var(--accent); min-height: 1em; }
+
+footer { padding-block: 36px 48px; font: 400 12px/1.6 var(--f-mono); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+
+/* nav */
+.top-right { display: flex; align-items: center; gap: 22px; }
+.nav { display: flex; gap: 18px; font: 500 13px/1 var(--f-body); }
+.nav a { color: var(--muted); text-decoration: none; }
+.nav a:hover { color: var(--ink); }
+button.btn { cursor: pointer; background: transparent; }
+button.btn.primary { background: var(--accent); }
+.btn.ghost { border-color: transparent; color: var(--accent); padding-inline: 6px; text-decoration: underline; }
+
+/* work sample */
+.sec-intro { min-width: 0; display: grid; gap: 10px; }
+.sec-intro p { margin: 0; max-width: 70ch; }
+.case-title { font: 600 1.35rem/1.25 var(--f-display); letter-spacing: -.01em; text-wrap: balance; }
+.disclaimer { font: 400 13px/1.5 var(--f-mono); color: var(--muted); }
+.case-body { grid-column: 1 / -1; min-width: 0; display: grid; gap: 20px; }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 2px; border-bottom: 1px solid var(--rule); }
+.tab {
+  font: 500 14px/1.2 var(--f-body); padding: 11px 14px; background: none; border: 0;
+  border-bottom: 2px solid transparent; margin-bottom: -1px; color: var(--muted); cursor: pointer;
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { min-width: 0; }
+
+.scenarios { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.scn {
+  display: inline-flex; align-items: center; gap: 8px; font: 500 13px/1 var(--f-body);
+  padding: 9px 13px; border-radius: 999px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); cursor: pointer;
+}
+.scn i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.scn.bad i { background: var(--bad); }
+.scn.warn i { background: var(--signal); }
+.scn[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+
+.seq-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+.seq-grid > .side { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: start; gap: 20px; }
+.seq-wrap { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; overflow-x: auto; padding: 8px; }
+.seq-wrap svg { display: block; width: 100%; min-width: 720px; height: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font: 400 12px/1.4 var(--f-mono); color: var(--muted); margin-top: 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend svg { width: 34px; height: 10px; flex: none; }
+
+svg .ll-line { stroke: var(--rule); stroke-width: 1.5; stroke-dasharray: 4 4; }
+svg .ll-box { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+svg .ll-name { font: 500 13px var(--f-body); fill: var(--ink); }
+svg .msg { color: var(--ink); }
+svg .msg.ok { color: var(--accent); }
+svg .msg.bad { color: var(--bad); }
+svg .msg.warn { color: var(--signal); }
+svg .msg.muted { color: var(--muted); }
+svg .m-line { stroke: currentColor; stroke-width: 1.5; fill: none; }
+svg .m-line.dashed { stroke-dasharray: 5 4; }
+svg .m-head { fill: currentColor; stroke: currentColor; stroke-width: 1.2; stroke-linejoin: round; }
+svg .m-head.open { fill: none; }
+svg .m-label { font: 500 12px var(--f-mono); fill: currentColor; paint-order: stroke; stroke: var(--sheet); stroke-width: 5px; stroke-linejoin: round; }
+svg .m-note { fill: var(--paper); stroke: var(--rule); stroke-dasharray: 3 3; }
+svg .m-note-t { font: 400 12px var(--f-mono); fill: var(--muted); }
+svg .msg.in { animation: msgIn .35s ease both; }
+@keyframes msgIn { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+
+.side { display: grid; gap: 14px; min-width: 0; }
+.bdd, .code { background: var(--code-bg); color: var(--code-fg); border-radius: 10px; overflow: hidden; min-width: 0; }
+.bdd pre { margin: 0; padding: 16px 18px 18px; font: 400 13px/1.7 var(--f-mono); white-space: pre-wrap; overflow-wrap: anywhere; }
+.bdd .kw { color: var(--code-key); font-weight: 500; }
+.bdd .q { color: var(--code-str); }
+.code pre { margin: 0; padding: 16px 18px; overflow-x: auto; font: 400 12.5px/1.65 var(--f-mono); }
+.focus { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; display: grid; gap: 8px; }
+.mini-h { font: 500 12px/1.4 var(--f-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0; }
+.focus p { margin: 0; }
+.focus ul { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; }
+.focus li::marker { color: var(--accent); }
+
+.api-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+
+.data { display: grid; gap: 16px; }
+.er { display: flex; align-items: stretch; flex-wrap: wrap; }
+.entity { background: var(--sheet); border: 1px solid var(--ink); border-radius: 8px; flex: 1 1 240px; min-width: 0; overflow: hidden; }
+.entity h5 { margin: 0; padding: 8px 12px; font: 500 13px/1.3 var(--f-mono); background: var(--ink); color: var(--paper); }
+.entity ul { list-style: none; margin: 0; padding: 8px 12px; font: 400 12.5px/1.8 var(--f-mono); }
+.entity .pk { color: var(--accent); font-weight: 500; }
+.entity .fk { color: var(--signal); font-weight: 500; }
+.entity .t { color: var(--muted); }
+.er-link {
+  flex: 0 1 170px; display: flex; flex-direction: column; align-items: stretch; justify-content: center;
+  font: 400 11.5px/1.45 var(--f-mono); color: var(--muted); text-align: center; padding: 8px 10px;
+}
+.er-link::before { content: ""; display: block; border-top: 1.5px solid var(--ink); margin-bottom: 8px; }
+.map-ctrl { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px; }
+.stat { font: 400 12px/1 var(--f-mono); padding: 9px 10px; border-radius: 6px; border: 1px solid var(--rule); background: var(--sheet); font-variant-numeric: tabular-nums; }
+.stat b { color: var(--accent); font-weight: 600; }
+.map-note { margin: 0; color: var(--muted); font-size: .95rem; }
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); }
+table.map { width: 100%; border-collapse: collapse; font: 400 13px/1.4 var(--f-mono); }
+.map th { text-align: left; font-weight: 500; color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; padding: 10px 14px; border-bottom: 1px solid var(--rule); }
+.map td { padding: 7px 14px; border-bottom: 1px solid var(--rule); white-space: nowrap; transition: opacity .2s ease; }
+.map tr:last-child td { border-bottom: 0; }
+.map tr.new td { background: color-mix(in srgb, var(--accent) 9%, transparent); animation: flash 1.4s ease; }
+@keyframes flash { from { background: color-mix(in srgb, var(--accent) 34%, transparent); } }
+.map tr.dim td { opacity: .3; }
+.pill {
+  display: inline-block; padding: 3px 9px; border-radius: 999px; font: 500 11.5px/1.3 var(--f-mono);
+  border: 1px solid currentColor; background: none; color: var(--ink); cursor: pointer;
+}
+.pill.APPROVED { color: var(--accent); }
+.pill.REJECTED { color: var(--bad); }
+.pill.SENT_TO_BANK { color: var(--signal); }
+.pill.EXPIRED { color: var(--muted); }
+.pill[aria-pressed="true"] { background: color-mix(in srgb, currentColor 14%, transparent); }
+
+.doc { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 28px clamp(18px, 4vw, 36px); display: grid; gap: 20px; }
+.doc-id { font: 500 12px/1 var(--f-mono); color: var(--accent); letter-spacing: .06em; }
+.doc h4 { font: 600 1.2rem/1.3 var(--f-display); margin: 8px 0 0; text-wrap: balance; }
+.doc-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 400 12.5px/1.4 var(--f-mono); color: var(--muted); }
+.doc-meta b { color: var(--ink); font-weight: 500; }
+.doc-meta .ok { color: var(--accent); }
+.doc p { margin: 0; max-width: 74ch; }
+.doc .mini-h { margin-bottom: 6px; }
+.alt-wrap { overflow-x: auto; }
+table.alt { border-collapse: collapse; width: 100%; min-width: 580px; font-size: .95rem; }
+.alt th, .alt td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--rule); }
+.alt th { font: 500 11.5px/1.3 var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.alt tr.chosen td { background: color-mix(in srgb, var(--accent) 9%, transparent); }
+.alt tr.chosen td:first-child { font-weight: 600; }
+.cons { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.cons li { display: grid; grid-template-columns: 1.3em minmax(0, 1fr); }
+.cons .p { color: var(--accent); font-weight: 600; }
+.cons .m { color: var(--bad); font-weight: 600; }
+
+@media (max-width: 980px) {
+  .api-grid, .seq-grid > .side { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .nav { display: none; }
+}
+@media (max-width: 620px) {
+  .er { flex-direction: column; }
+  .er-link { flex-basis: auto; }
+  .er-link::before { width: 0; height: 22px; border-top: 0; border-left: 1.5px solid var(--ink); margin: 0 auto 6px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  svg .msg.in, .map tr.new td { animation: none; }
+  .map td { transition: none; }
+}
+
+@media (max-width: 860px) {
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 36px; padding-block: 24px 56px; }
+  .sec { grid-template-columns: minmax(0, 1fr); gap: 20px; padding-block: 40px; }
+}
+@media (max-width: 620px) {
+  .principles { grid-template-columns: minmax(0, 1fr); }
+  .principles li:nth-child(2) { border-top: 1px solid var(--rule); padding-top: 20px; }
+  .stack { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .stack dd { margin-bottom: 12px; }
+  .contact { padding: 22px; }
+  .card pre { font-size: 12.5px; padding: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dot { animation: none; }
+  .btn { transition: none; }
+  .btn:hover { transform: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span class="top-name"><span class="ru">Хауатмех · системный аналитик</span><span class="en">Khauatmekh · system analyst</span></span>
+    <div class="top-right">
+    <nav class="nav" aria-label="Sections">
+      <a href="#approach"><span class="ru">Подход</span><span class="en">Approach</span></a>
+      <a href="#case"><span class="ru">Пример работы</span><span class="en">Work sample</span></a>
+      <a href="#experience"><span class="ru">Опыт</span><span class="en">Experience</span></a>
+      <a href="#contact"><span class="ru">Контакты</span><span class="en">Contact</span></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-ru" data-set-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" id="lang-en" data-set-lang="en" aria-pressed="false">EN</button>
+    </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <span class="status"><span class="dot" aria-hidden="true"></span><span class="ru">Открыт к предложениям</span><span class="en">Open to offers</span></span>
+      <h1><span class="ru">Амир Хауатмех</span><span class="en">Amir Khauatmekh</span></h1>
+      <p class="role"><span class="ru">Системный аналитик</span><span class="en">System Analyst</span> <span><span class="ru">· интеграции и финтех</span><span class="en">· integrations and fintech</span></span></p>
+      <p class="lead ru">Больше 4 лет в финтехе и B2B: кредитные конвейеры, POS- и BNPL-кредитование, страховые платформы, HR-tech. Проектирую синхронные и асинхронные интеграции с банками, страховыми и 1С (REST API, OpenAPI, Kafka, RabbitMQ). Сейчас развиваюсь в архитектуре интеграционных решений.</p>
+      <p class="lead en">4+ years in fintech and B2B products: credit pipelines, POS/BNPL lending, insurance platforms, HR-tech. I design synchronous and asynchronous integrations with banks, insurers and 1C (REST, OpenAPI, Kafka, RabbitMQ). My growth focus is integration architecture.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://t.me/hedgehog161" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.4 13.1l-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3Z"/></svg>
+          <span class="ru">Написать в Telegram</span><span class="en">Message on Telegram</span>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/amir-khauatmekh" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="#case"><span class="ru">Пример работы</span><span class="en">Work sample</span></a>
+      </div>
+    </div>
+
+    <figure class="card" aria-label="Candidate summary">
+      <div class="card-bar"><b>candidate.yaml</b><span class="ru">обновлено 10.2026</span><span class="en">updated 2026-10</span></div>
+<pre><span class="k">name</span>: <span class="s"><span class="ru">Амир Хауатмех</span><span class="en">Amir Khauatmekh</span></span>
+<span class="k">role</span>: <span class="s"><span class="ru">Системный аналитик</span><span class="en">System Analyst</span></span>
+<span class="k">focus</span>: [<span class="s"><span class="ru">интеграции</span><span class="en">integrations</span></span>, <span class="s"><span class="ru">финтех</span><span class="en">fintech</span></span>]
+<span class="k">domains</span>:
+  - <span class="s"><span class="ru">кредитный конвейер</span><span class="en">credit pipeline</span></span>
+  - <span class="s">POS / BNPL</span>
+  - <span class="s"><span class="ru">страховые платформы</span><span class="en">insurance platforms</span></span>
+  - <span class="s">HR-tech B2B</span>
+<span class="k">experience</span>: <span class="s"><span class="ru">4+ года</span><span class="en">4+ years</span></span>
+<span class="k">growth_focus</span>: <span class="s"><span class="ru">архитектура интеграций</span><span class="en">integration architecture</span></span>
+<span class="k">location</span>: <span class="s"><span class="ru">Белград, Сербия</span><span class="en">Belgrade, Serbia</span></span>
+<span class="k">work_format</span>: [<span class="s"><span class="ru">удалённо</span><span class="en">remote</span></span>, <span class="s"><span class="ru">гибрид</span><span class="en">hybrid</span></span>, <span class="s"><span class="ru">офис</span><span class="en">on-site</span></span>]
+<span class="k">languages</span>: {<span class="k">ru</span>: <span class="s"><span class="ru">родной</span><span class="en">native</span></span>, <span class="k">en</span>: <span class="s">B2</span>}
+<span class="k">status</span>: <span class="sig">open_to_offers</span></pre>
+    </figure>
+  </section>
+
+  <section class="sec" id="approach">
+    <h2><span class="ru">Как я работаю</span><span class="en">How I work</span><span class="sec-note"><span class="ru">принципы из проектов</span><span class="en">principles from my projects</span></span></h2>
+    <div class="sec-body">
+      <ul class="principles">
+        <li>
+          <h3><span class="ru">Схема процесса как источник правды</span><span class="en">The process diagram is the source of truth</span></h3>
+          <p><span class="ru">Свожу логику в схемы AS IS и TO BE в BPMN. Кто владеет шагом, где точки отказа и что будет при повторном входе клиента, решается по схеме, а не на созвонах.</span><span class="en">I put the logic into AS IS / TO BE diagrams in BPMN. Step ownership, failure points and repeated client entry are settled by the diagram, not in meetings.</span></p>
+          <span class="from"><span class="ru">МигКредит</span><span class="en">MigCredit</span></span>
+        </li>
+        <li>
+          <h3><span class="ru">Негативные сценарии до разработки</span><span class="en">Negative scenarios before development</span></h3>
+          <p><span class="ru">Отказ скоринга, таймаут банка, повторная заявка с изменёнными данными попадают в требования заранее, а не всплывают дефектами на приёмке.</span><span class="en">Scoring rejection, a bank timeout, a repeated application with changed data go into requirements up front instead of surfacing as defects at acceptance.</span></p>
+          <span class="from"><span class="ru">МигКредит</span><span class="en">MigCredit</span></span>
+        </li>
+        <li>
+          <h3><span class="ru">Контракт раньше кода</span><span class="en">Contract before code</span></h3>
+          <p><span class="ru">API уходит в разработку с готовым контрактом в OpenAPI и тест-кейсами. Интеграции проверяю сам: Postman, SoapUI, логи в Kibana и Graylog.</span><span class="en">An API goes to development with a ready OpenAPI contract and test cases. I check integrations myself: Postman, SoapUI, logs in Kibana and Graylog.</span></p>
+          <span class="from"><span class="ru">Рексофт, МигКредит</span><span class="en">Reksoft, MigCredit</span></span>
+        </li>
+        <li>
+          <h3><span class="ru">Решения записаны в ADR</span><span class="en">Decisions are written down in ADRs</span></h3>
+          <p><span class="ru">Споры о принятых решениях снимает база ADR, а новые люди входят в контекст по документации, а не через расспросы.</span><span class="en">The ADR base settles arguments about past decisions, and new people get up to speed from documents rather than by asking around.</span></p>
+          <span class="from"><span class="ru">Рексофт, М.Видео-Эльдорадо</span><span class="en">Reksoft, M.Video-Eldorado</span></span>
+        </li>
+        <li>
+          <h3><span class="ru">Типовое решение вместо разовой проработки</span><span class="en">A standard path instead of one-off design</span></h3>
+          <p><span class="ru">Банки-партнёры подключаются по типовому сценарию на общей библиотеке методов. Новый банк добавляется настройкой справочника, без правок схемы и кода.</span><span class="en">Partner banks connect through a standard scenario on a shared method library. A new bank is a reference table entry, with no schema or code changes.</span></p>
+          <span class="from"><span class="ru">М.Видео-Эльдорадо</span><span class="en">M.Video-Eldorado</span></span>
+        </li>
+        <li>
+          <h3><span class="ru">Документация для соседних команд</span><span class="en">Docs for neighbouring teams</span></h3>
+          <p><span class="ru">Пишу инструкции для банков-партнёров и поддержки, чтобы спорные случаи и рутинные вопросы не доходили до разработчиков и аналитиков.</span><span class="en">I write guides for partner banks and support so disputed cases and routine questions don't land on developers and analysts.</span></p>
+          <span class="from"><span class="ru">МигКредит, Сбер</span><span class="en">MigCredit, Sber</span></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="case">
+    <h2><span class="ru">Пример работы</span><span class="en">Work sample</span><span class="sec-note"><span class="ru">условный кейс</span><span class="en">illustrative case</span></span></h2>
+    <div class="sec-intro">
+      <p class="case-title"><span class="ru">Подключение банка-партнёра к POS-кредитованию</span><span class="en">Connecting a partner bank to POS lending</span></p>
+      <p class="ru">Так я веду интеграционную задачу: схема взаимодействия с негативными сценариями, требования в BDD, API-контракт, модель данных и решение в ADR. Кейс похож на задачи из моего опыта, но собран с нуля.</p>
+      <p class="en">This is how I run an integration task: an interaction diagram with negative scenarios, BDD requirements, an API contract, a data model and an ADR. The case resembles tasks from my experience but is built from scratch.</p>
+      <p class="disclaimer ru">Банки A, B, C, коды статусов и тайминги условные. Рабочие документы работодателей не публикую.</p>
+      <p class="disclaimer en">Banks A, B, C, status codes and timings are made up. I don't publish employers' internal documents.</p>
+    </div>
+
+    <div class="case-body">
+      <div class="tabs" role="tablist" aria-label="Case artifacts">
+        <button type="button" class="tab" role="tab" id="tab-flow" aria-controls="panel-flow" aria-selected="true"><span class="ru">Схема и сценарии</span><span class="en">Flow and scenarios</span></button>
+        <button type="button" class="tab" role="tab" id="tab-api" aria-controls="panel-api" aria-selected="false" tabindex="-1"><span class="ru">API-контракт</span><span class="en">API contract</span></button>
+        <button type="button" class="tab" role="tab" id="tab-data" aria-controls="panel-data" aria-selected="false" tabindex="-1"><span class="ru">Модель данных</span><span class="en">Data model</span></button>
+        <button type="button" class="tab" role="tab" id="tab-adr" aria-controls="panel-adr" aria-selected="false" tabindex="-1">ADR</button>
+      </div>
+
+      <div class="panel" id="panel-flow" role="tabpanel" aria-labelledby="tab-flow">
+        <div class="scenarios" role="group" aria-label="Scenario">
+          <button type="button" class="scn ok" id="scn-approve" data-sc="approve" aria-pressed="true"><i></i><span class="ru">Одобрение</span><span class="en">Approval</span></button>
+          <button type="button" class="scn bad" id="scn-reject" data-sc="reject" aria-pressed="false"><i></i><span class="ru">Отказ скоринга</span><span class="en">Scoring rejection</span></button>
+          <button type="button" class="scn warn" id="scn-timeout" data-sc="timeout" aria-pressed="false"><i></i><span class="ru">Таймаут банка</span><span class="en">Bank timeout</span></button>
+          <button type="button" class="scn warn" id="scn-repeat" data-sc="repeat" aria-pressed="false"><i></i><span class="ru">Повторная заявка</span><span class="en">Repeated application</span></button>
+        </div>
+        <div class="seq-grid">
+          <div>
+            <div class="seq-wrap"><svg id="seq" role="img" aria-label="Sequence diagram" xmlns="http://www.w3.org/2000/svg"></svg></div>
+            <div class="legend">
+              <span><svg viewBox="0 0 34 10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" stroke="currentColor" stroke-width="1.5"/><polygon points="24,0.5 33,5 24,9.5" fill="currentColor"/></svg><span class="ru">вызов</span><span class="en">call</span></span>
+              <span><svg viewBox="0 0 34 10" aria-hidden="true"><line x1="1" y1="5" x2="32" y2="5" stroke="currentColor" stroke-width="1.5"/><polyline points="24,0.5 33,5 24,9.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="ru">асинхронно, Kafka</span><span class="en">async, Kafka</span></span>
+              <span><svg viewBox="0 0 34 10" aria-hidden="true"><line x1="1" y1="5" x2="32" y2="5" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/><polyline points="24,0.5 33,5 24,9.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="ru">ответ</span><span class="en">response</span></span>
+              <span><svg viewBox="0 0 34 10" aria-hidden="true"><line x1="1" y1="5" x2="24" y2="5" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/><path d="M25 1 L33 9 M25 9 L33 1" stroke="currentColor" stroke-width="1.5"/></svg><span class="ru">нет ответа</span><span class="en">no response</span></span>
+            </div>
+          </div>
+          <div class="side">
+            <div class="bdd">
+              <div class="card-bar"><b>pos-application.feature</b><span>BDD</span></div>
+              <pre id="bdd"></pre>
+            </div>
+            <div class="focus">
+              <p class="mini-h"><span class="ru">Что фиксирую в требованиях</span><span class="en">What I pin down in requirements</span></p>
+              <p id="focus"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="panel-api" role="tabpanel" aria-labelledby="tab-api" hidden>
+        <div class="api-grid">
+          <div class="code">
+            <div class="card-bar"><b>pos-applications.openapi.yaml</b><span>REST</span></div>
+            <pre id="yaml-rest"></pre>
+          </div>
+          <div class="side">
+            <div class="code">
+              <div class="card-bar"><b>pos.application.status-changed</b><span>Kafka</span></div>
+              <pre id="yaml-event"></pre>
+            </div>
+            <div class="focus">
+              <p class="mini-h"><span class="ru">Почему так</span><span class="en">Why it looks like this</span></p>
+              <ul class="ru">
+                <li>Ответ 202 вместо ожидания банка: рассмотрение идёт минуты, магазин не держит соединение и узнаёт итог из события.</li>
+                <li>Idempotency-Key: повтор после обрыва связи не создаёт вторую заявку.</li>
+                <li>Единая модель ошибки: магазин обрабатывает 409 по коду, а не по тексту сообщения.</li>
+                <li>Ключ сообщения applicationId: события одной заявки приходят по порядку.</li>
+              </ul>
+              <ul class="en">
+                <li>202 instead of waiting for the bank: a review takes minutes, so the store doesn't hold the connection and gets the result from an event.</li>
+                <li>Idempotency-Key: a retry after a dropped connection doesn't create a second application.</li>
+                <li>One error model: the store handles 409 by code, not by message text.</li>
+                <li>applicationId as the message key: events for one application arrive in order.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="panel-data" role="tabpanel" aria-labelledby="tab-data" hidden>
+        <div class="data">
+          <div class="er">
+            <div class="entity">
+              <h5>application</h5>
+              <ul>
+                <li><span class="pk">id</span> <span class="t">uuid PK</span></li>
+                <li>client_id <span class="t">uuid</span></li>
+                <li>status <span class="t">ApplicationStatus</span></li>
+                <li><span class="fk">bank_code</span> <span class="t">varchar</span></li>
+                <li><span class="fk">bank_raw_status</span> <span class="t">varchar</span></li>
+                <li>updated_at <span class="t">timestamptz</span></li>
+              </ul>
+            </div>
+            <div class="er-link"><span>bank_code + bank_raw_status</span><span>→ unified_status</span></div>
+            <div class="entity">
+              <h5>bank_status_map</h5>
+              <ul>
+                <li><span class="pk">bank_code</span> <span class="t">PK</span></li>
+                <li><span class="pk">raw_status</span> <span class="t">PK</span></li>
+                <li>unified_status <span class="t">ApplicationStatus</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="map-ctrl">
+            <button type="button" class="btn primary" id="add-bank"></button>
+            <div class="stats">
+              <span class="stat"><span class="ru">Изменений схемы БД:</span><span class="en">Schema changes:</span> <b>0</b></span>
+              <span class="stat"><span class="ru">Правок кода:</span><span class="en">Code changes:</span> <b>0</b></span>
+              <span class="stat"><span class="ru">Строк в справочнике:</span><span class="en">Reference rows:</span> <b id="st-rows">8</b></span>
+            </div>
+          </div>
+          <p class="map-note" id="map-note" aria-live="polite"></p>
+          <div class="tbl-wrap">
+            <table class="map">
+              <thead><tr><th>bank_code</th><th>raw_status</th><th>unified_status</th></tr></thead>
+              <tbody id="map-body"></tbody>
+            </table>
+          </div>
+          <p class="map-note"><span class="ru">Нажмите на единый статус, чтобы подсветить все коды банков, которые в него сводятся.</span><span class="en">Click a unified status to highlight every bank code that maps to it.</span></p>
+        </div>
+      </div>
+
+      <div class="panel" id="panel-adr" role="tabpanel" aria-labelledby="tab-adr" hidden>
+        <article class="doc">
+          <div>
+            <span class="doc-id">ADR-007</span>
+            <h4><span class="ru">Единый статус заявки через справочник статусов банков</span><span class="en">Unified application status via a bank status reference table</span></h4>
+          </div>
+          <div class="doc-meta">
+            <span><span class="ru">Статус:</span><span class="en">Status:</span> <b class="ok"><span class="ru">принято</span><span class="en">accepted</span></b></span>
+            <span><span class="ru">Участники:</span><span class="en">Participants:</span> <b><span class="ru">аналитика, разработка конвейера, интеграции</span><span class="en">analysis, pipeline development, integrations</span></b></span>
+          </div>
+          <div>
+            <p class="mini-h"><span class="ru">Контекст</span><span class="en">Context</span></p>
+            <p class="ru">Каждый банк-партнёр возвращает свои коды статусов: буквенные, числовые, текстовые. Если соответствие зашито в адаптер банка, каждый новый банк и каждый новый код требуют релиза, а исходный ответ банка теряется.</p>
+            <p class="en">Every partner bank returns its own status codes: letters, numbers, free text. If the mapping lives in each bank adapter, every new bank and every new code needs a release, and the bank's original answer is lost.</p>
+          </div>
+          <div>
+            <p class="mini-h"><span class="ru">Решение</span><span class="en">Decision</span></p>
+            <p class="ru">Заявка хранит два поля: единый статус и сырой код банка. Соответствие задаётся в справочнике bank_status_map. Неизвестный код не меняет единый статус и поднимает алерт для сопровождения.</p>
+            <p class="en">An application stores two fields: the unified status and the bank's raw code. The mapping lives in the bank_status_map reference table. An unknown code leaves the unified status unchanged and raises an alert for the support team.</p>
+          </div>
+          <div>
+            <p class="mini-h"><span class="ru">Рассмотренные варианты</span><span class="en">Options considered</span></p>
+            <div class="alt-wrap">
+              <table class="alt">
+                <thead><tr><th><span class="ru">Вариант</span><span class="en">Option</span></th><th><span class="ru">Плюсы</span><span class="en">Pros</span></th><th><span class="ru">Минусы</span><span class="en">Cons</span></th></tr></thead>
+                <tbody>
+                  <tr>
+                    <td><span class="ru">Маппинг в коде адаптера</span><span class="en">Mapping in adapter code</span></td>
+                    <td><span class="ru">Быстро для первого банка</span><span class="en">Fast for the first bank</span></td>
+                    <td><span class="ru">Новый банк или код означает релиз, логика размазана по адаптерам</span><span class="en">A new bank or code means a release; logic is spread across adapters</span></td>
+                  </tr>
+                  <tr class="chosen">
+                    <td><span class="ru">Справочник статусов (выбран)</span><span class="en">Status reference table (chosen)</span></td>
+                    <td><span class="ru">Новый банк подключается строками в справочнике, сырой код сохраняется для разбора споров</span><span class="en">A new bank is just rows in the table; the raw code is kept for disputes</span></td>
+                    <td><span class="ru">Справочнику нужен владелец, нужен алерт на неизвестный код</span><span class="en">The table needs an owner and an alert for unknown codes</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="ru">Банки присылают наш формат</span><span class="en">Banks send our format</span></td>
+                    <td><span class="ru">Маппинг не нужен</span><span class="en">No mapping at all</span></td>
+                    <td><span class="ru">Зависим от готовности каждого банка менять свой API</span><span class="en">Depends on every bank agreeing to change its API</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <p class="mini-h"><span class="ru">Последствия</span><span class="en">Consequences</span></p>
+            <ul class="cons ru">
+              <li><span class="p">+</span><span>Банк подключается без изменения схемы и кода конвейера</span></li>
+              <li><span class="p">+</span><span>Спор с банком разбирается по сохранённому сырому коду</span></li>
+              <li><span class="m">−</span><span>Появляется справочник, которому нужны владелец и регламент обновления</span></li>
+              <li><span class="m">−</span><span>Нужен мониторинг неизвестных кодов</span></li>
+            </ul>
+            <ul class="cons en">
+              <li><span class="p">+</span><span>A bank connects without schema or pipeline code changes</span></li>
+              <li><span class="p">+</span><span>Disputes with a bank are settled using the stored raw code</span></li>
+              <li><span class="m">−</span><span>A reference table appears that needs an owner and an update procedure</span></li>
+              <li><span class="m">−</span><span>Unknown codes need monitoring</span></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="experience">
+    <h2><span class="ru">Опыт</span><span class="en">Experience</span><span class="sec-note"><span class="ru">с 2022 в системном анализе, до этого техподдержка</span><span class="en">system analysis since 2022, technical support before that</span></span></h2>
+    <div class="sec-body">
+
+      <article class="job">
+        <div class="job-head">
+          <h3><span class="ru">МигКредит</span><span class="en">MigCredit</span><span><span class="ru">системный аналитик</span><span class="en">System Analyst</span></span></h3>
+          <span class="dates"><span class="ru">с 07.2025</span><span class="en">07.2025-now</span></span>
+        </div>
+        <p class="ctx ru">Кредитный конвейер и POS-кредитование, интеграции с банками-партнёрами. B2C, финансовый сектор.</p>
+        <p class="ctx en">Credit pipeline and POS lending, integrations with partner banks. B2C, financial sector.</p>
+        <ul class="ru">
+          <li>Свёл разрозненную логику кредитного конвейера в схемы AS IS и TO BE в BPMN и закрепил их как источник правды: владелец шага, точки отказа и повторный вход клиента решаются по схеме.</li>
+          <li>Проектирую синхронные и асинхронные интеграции core-системы с банками-партнёрами (REST API, OpenAPI 3.0, Kafka, RabbitMQ), отвечаю за контракт на стороне аналитики. Ввёл единый формат API-контрактов и фиксацию решений в ADR вместо устных договорённостей.</li>
+          <li>Внедрил системное тестирование API в SoapUI, веду мониторинг и разбор инцидентов при подключении новых каналов.</li>
+          <li>Формирую требования к скорингу и антифроду. Негативные сценарии описываю до старта разработки.</li>
+        </ul>
+        <ul class="en">
+          <li>Consolidated scattered credit pipeline logic into AS IS / TO BE BPMN schemes and made them the source of truth for step ownership, failure points and repeated client entry.</li>
+          <li>Design sync and async integrations between the core system and partner banks (REST API, OpenAPI 3.0, Kafka, RabbitMQ) and own the contract on the analysis side. Introduced a single API contract format and ADRs instead of verbal agreements.</li>
+          <li>Introduced system API testing in SoapUI; monitor and analyze incidents when new channels are connected.</li>
+          <li>Define requirements for scoring and anti-fraud, with negative scenarios described before development starts.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h3><span class="ru">Рексофт</span><span class="en">Reksoft</span><span><span class="ru">системный аналитик</span><span class="en">System Analyst</span></span></h3>
+          <span class="dates">09.2024-07.2025</span>
+        </div>
+        <p class="ctx ru">Личный кабинет страхователя, страховая платформа, управление договорами. B2C: КАСКО, ОСАГО, страхование жизни и недвижимости.</p>
+        <p class="ctx en">Policyholder personal account, insurance platform, contract management. B2C: motor insurance (KASKO, OSAGO), life and property insurance.</p>
+        <ul class="ru">
+          <li>Спроектировал ключевые API-методы личного кабинета и покрыл их системными тестами в Postman: API уходили в разработку с готовыми контрактами и тест-кейсами.</li>
+          <li>Спроектировал модель хранения договоров с продлениями и изменениями полиса: сценарии четырёх продуктов легли на общую схему.</li>
+          <li>Ввёл единый порядок согласования требований между бизнесом, разработкой и тестированием.</li>
+          <li>Довёл практику ADR до состояния, когда команда ведёт её сама.</li>
+        </ul>
+        <ul class="en">
+          <li>Designed key personal account API methods and covered them with system tests in Postman, so APIs went to development with ready contracts and test cases.</li>
+          <li>Designed the contract storage model with renewals and policy changes: four product scenarios fit one shared schema.</li>
+          <li>Introduced a single requirements approval process between business, development and QA.</li>
+          <li>Brought the ADR practice to the point where the team runs it on its own.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h3><span class="ru">М.Видео-Эльдорадо</span><span class="en">M.Video-Eldorado</span><span><span class="ru">системный аналитик</span><span class="en">System Analyst</span></span></h3>
+          <span class="dates">04.2023-06.2024</span>
+        </div>
+        <p class="ctx ru">Кредитный брокер, POS-кредиты и BNPL, интеграции с 15+ банками-партнёрами. B2C, розничная сеть и интернет-магазин.</p>
+        <p class="ctx en">Credit broker, POS loans and BNPL, integrations with 15+ partner banks. B2C, retail and e-commerce.</p>
+        <ul class="ru">
+          <li>Вёл библиотеку API-методов и интеграционных сценариев для 15+ банков-партнёров, включая асинхронные интеграции и схемы авторизации (Kafka, RabbitMQ, OAuth 2.0, JWT).</li>
+          <li>Унифицировал подключение банков: типовой сценарий на общей библиотеке методов вместо проработки под каждого.</li>
+          <li>Заложил единое хранение статусов от всех партнёров. Новый банк подключается настройкой справочника, без изменения схемы базы и кода.</li>
+          <li>Создал с нуля базу проектных решений (SDD) как стандарт команды и ввёл кросс-ревью аналитической документации.</li>
+        </ul>
+        <ul class="en">
+          <li>Maintained the library of API methods and integration scenarios for 15+ partner banks, including async integrations and authorization schemes (Kafka, RabbitMQ, OAuth 2.0, JWT).</li>
+          <li>Unified partner bank onboarding with a typical scenario on a shared method library instead of custom design for each bank.</li>
+          <li>Designed uniform status storage for all partners: a new bank connects through a reference table, without schema or code changes.</li>
+          <li>Created a solution design (SDD) knowledge base from scratch as a team standard and introduced cross-review of analysis docs.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h3><span class="ru">Сбер</span><span class="en">Sber</span><span><span class="ru">системный аналитик</span><span class="en">System Analyst</span></span></h3>
+          <span class="dates">03.2022-03.2023</span>
+        </div>
+        <p class="ctx ru">Многофункциональная HR-платформа. B2B, финансовый сектор.</p>
+        <p class="ctx en">Multi-functional HR platform. B2B, financial sector.</p>
+        <ul class="ru">
+          <li>Вывел HR-платформу на внешний рынок: подключены 4 внешние компании, клиенты банка. Адаптировал продукт и пользовательские сценарии, координировал стейкхолдеров.</li>
+          <li>Отделил общую часть процессов платформы от логики конкретной компании. Это стало основой мультиклиентной модели.</li>
+          <li>Расширил платформу новым источником кадровых данных через интеграцию с 1С.</li>
+          <li>Передал сопровождение линии поддержки: подготовил инструкции и обучил сотрудников, рутинные обращения перестали доходить до аналитиков.</li>
+        </ul>
+        <ul class="en">
+          <li>Brought the HR platform to the external market: connected 4 external companies (bank clients), adapted the product and user scenarios, coordinated stakeholders.</li>
+          <li>Separated the generic part of platform processes from company-specific logic, which became the basis for the multi-client model.</li>
+          <li>Added a new HR data source by setting up integration with 1C.</li>
+          <li>Handed over the support line with guides and training, so routine requests stopped reaching analysts.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h3>WAVIoT<span><span class="ru">руководитель группы техподдержки</span><span class="en">Technical Support Team Lead</span></span></h3>
+          <span class="dates">06.2020-01.2022</span>
+        </div>
+        <p class="ctx ru">Промышленный IoT, система умных счётчиков. Начинал специалистом поддержки L2/L3, через 10 месяцев стал руководителем группы.</p>
+        <p class="ctx en">Industrial IoT: smart meter system. Joined as an L2/L3 support specialist and became team lead in 10 months.</p>
+        <ul class="ru">
+          <li>Руководил группой: обучение, распределение задач, регламенты, инструкции и методические материалы.</li>
+          <li>Разбирал инциденты через SQL-запросы и REST API, писал ТЗ для разработки, выстроил процесс между поддержкой и разработкой.</li>
+        </ul>
+        <ul class="en">
+          <li>Led the support team: onboarding, task distribution, regulations, guides and training materials.</li>
+          <li>Analyzed incidents with SQL queries and REST API calls, wrote specifications for development, built the support-to-development workflow.</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="sec" id="stack">
+    <h2><span class="ru">Инструменты</span><span class="en">Toolkit</span></h2>
+    <div class="sec-body">
+      <dl class="stack">
+        <dt><span class="ru">Анализ</span><span class="en">Analysis</span></dt>
+        <dd class="ru">Системный и бизнес-анализ, функциональные и нефункциональные требования, User Story, Use Case, BRD, SDD, ADR, AS IS / TO BE, работа со стейкхолдерами</dd>
+        <dd class="en">System and business analysis, functional and non-functional requirements, user stories, use cases, BRD, SDD, ADR, AS IS / TO BE, stakeholder management</dd>
+        <dt><span class="ru">Моделирование</span><span class="en">Modeling</span></dt>
+        <dd>BPMN, UML, C4, <span class="ru">ER-диаграммы</span><span class="en">ER diagrams</span>, MS Visio, Lucidchart, Draw.io, Miro, Figma</dd>
+        <dt><span class="ru">Интеграции</span><span class="en">Integrations</span></dt>
+        <dd>REST API, OpenAPI / Swagger, Kafka, RabbitMQ, OAuth 2.0, JWT, <span class="ru">микросервисы</span><span class="en">microservices</span>, <span class="basic">gRPC <span class="ru">и</span><span class="en">and</span> GraphQL (<span class="ru">базово</span><span class="en">basic</span>)</span></dd>
+        <dt><span class="ru">Данные</span><span class="en">Data</span></dt>
+        <dd>SQL, PostgreSQL, Redis, MongoDB</dd>
+        <dt><span class="ru">Тесты и мониторинг</span><span class="en">Testing, monitoring</span></dt>
+        <dd>Postman, SoapUI, Graylog, Kibana, Prometheus, Grafana, <span class="basic">TestRail (<span class="ru">базово</span><span class="en">basic</span>)</span></dd>
+        <dt><span class="ru">Процессы</span><span class="en">Process</span></dt>
+        <dd>Agile / Scrum, Jira, Confluence, <span class="basic">Git, CI/CD (<span class="ru">базово</span><span class="en">basic</span>)</span></dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <h2><span class="ru">Ещё обо мне</span><span class="en">Also</span></h2>
+    <div class="sec-body facts">
+      <div>
+        <h3><span class="ru">Образование</span><span class="en">Education</span></h3>
+        <p class="ru">Российский новый университет (РосНОУ), Москва, 2018. Социальная педагогика.</p>
+        <p class="en">Russian New University (RosNOU), Moscow, 2018. Social Pedagogy.</p>
+        <p class="ru">IT Bootcamp "Системный аналитик", Сбер, 2022.</p>
+        <p class="en">IT Bootcamp "System Analyst", Sber, 2022.</p>
+      </div>
+      <div>
+        <h3><span class="ru">Языки</span><span class="en">Languages</span></h3>
+        <p class="ru">Русский: родной</p>
+        <p class="en">Russian: native</p>
+        <p class="ru">Английский: B2</p>
+        <p class="en">English: B2</p>
+      </div>
+      <div>
+        <h3><span class="ru">Пет-проекты</span><span class="en">Pet projects</span></h3>
+        <p class="ru">С Claude от бизнес-требований до реализации: админка с динамическим ценообразованием, таск-трекер, игра с механикой гачи.</p>
+        <p class="en">Built with Claude, from business requirements to implementation: admin panel with dynamic pricing, task tracker, gacha-style game.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="contact">
+    <h2><span class="ru">Контакты</span><span class="en">Contact</span></h2>
+    <div class="sec-body">
+      <div class="contact">
+        <p class="contact-title"><span class="ru">Есть вакансия? Напишите.</span><span class="en">Have a role in mind? Get in touch.</span></p>
+        <p class="ru">Рассматриваю позиции системного аналитика и аналитика интеграций в продуктовых компаниях. Белград, Сербия. Удалённо, гибрид или офис.</p>
+        <p class="en">Open to System Analyst and Integration Analyst roles in product companies. Based in Belgrade, Serbia. Remote, hybrid or on-site.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://t.me/hedgehog161" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.4 13.1l-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3Z"/></svg>
+            Telegram
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/amir-khauatmekh" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="handle">
+          <code id="tg-handle">@hedgehog161</code>
+          <button type="button" class="copy" id="copy-tg"><span class="ru">Скопировать</span><span class="en">Copy</span></button>
+          <span class="copy-msg" id="copy-msg" aria-live="polite"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span><span class="ru">Амир Хауатмех, 2026</span><span class="en">Amir Khauatmekh, 2026</span></span>
+    <span><span class="ru">Обновлено в октябре 2026</span><span class="en">Updated October 2026</span></span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var body = document.body;
+  var titles = { ru: "Амир Хауатмех", en: "Amir Khauatmekh" };
+  var copied = { ru: "Скопировано", en: "Copied" };
+  var current = "ru";
+
+  /* ---------- sequence diagram data ---------- */
+  var LL = {
+    store: { ru: "Магазин", en: "Store" },
+    pipe: { ru: "Конвейер", en: "Pipeline" },
+    score: { ru: "Скоринг", en: "Scoring" },
+    bankA: { ru: "Банк A", en: "Bank A" },
+    bankB: { ru: "Банк B", en: "Bank B" }
+  };
+  var ORDER = ["store", "pipe", "score", "bankA", "bankB"];
+  var X = { store: 80, pipe: 260, score: 430, bankA: 590, bankB: 740 };
+
+  function m(f, to, t, ru, en, tone) { return { f: f, to: to, t: t, l: { ru: ru, en: en }, tone: tone || "" }; }
+  function self(f, ru, en, tone) { return { f: f, t: "self", l: { ru: ru, en: en }, tone: tone || "" }; }
+  function note(over, ru, en) { return { t: "note", over: over, l: { ru: ru, en: en } }; }
+
+  var START = [
+    m("store", "pipe", "call", "POST /applications", "POST /applications"),
+    m("pipe", "store", "reply", "202 · NEW", "202 · NEW"),
+    m("pipe", "score", "call", "проверка анкеты", "check application")
+  ];
+
+  var SC = {
+    approve: {
+      msgs: START.concat([
+        m("score", "pipe", "reply", "OK", "OK"),
+        m("pipe", "bankA", "async", "заявка · Kafka", "application · Kafka"),
+        m("bankA", "pipe", "reply", "A_OK", "A_OK"),
+        self("pipe", "справочник: A_OK → APPROVED", "lookup: A_OK → APPROVED"),
+        m("pipe", "store", "async", "событие: APPROVED", "event: APPROVED", "ok")
+      ]),
+      focus: {
+        ru: "Какой сырой код банка считается одобрением, где хранится соответствие и кто узнаёт о новом статусе.",
+        en: "Which raw bank code means approval, where the mapping lives and who learns about the new status."
+      },
+      bdd: {
+        ru: ["  Сценарий: Банк одобряет заявку", "    Дано клиент прошёл скоринг", "    И Банк A подключён к POS-кредитованию", "    Когда Банк A одобряет заявку", "    Тогда заявка получает статус \"Одобрена\"", "    И магазин получает уведомление о новом статусе"],
+        en: ["  Scenario: Bank approves the application", "    Given the client has passed scoring", "    And Bank A is connected to POS lending", "    When Bank A approves the application", "    Then the application status becomes \"Approved\"", "    And the store is notified of the new status"]
+      }
+    },
+    reject: {
+      msgs: START.concat([
+        m("score", "pipe", "reply", "отказ", "rejected", "bad"),
+        self("pipe", "REJECTED · SCORING_REJECT", "REJECTED · SCORING_REJECT", "bad"),
+        m("pipe", "store", "async", "событие: REJECTED", "event: REJECTED", "bad"),
+        note(["bankA", "bankB"], "в банки заявка не уходит", "never sent to banks")
+      ]),
+      focus: {
+        ru: "Код причины отказа, который увидит магазин, и явный запрет отправлять заявку в банки после отказа.",
+        en: "The rejection reason code the store will see, and an explicit rule not to send the application to banks."
+      },
+      bdd: {
+        ru: ["  Сценарий: Скоринг отказывает", "    Дано клиент заполнил анкету в магазине", "    Когда скоринг отказывает по анкете", "    Тогда заявка получает статус \"Отказ\" с причиной \"Скоринг\"", "    И заявка не отправляется в банки", "    И магазин получает уведомление об отказе"],
+        en: ["  Scenario: Scoring rejects the application", "    Given the client has filled in the form in the store", "    When scoring rejects the application", "    Then the status becomes \"Rejected\" with reason \"Scoring\"", "    And the application is not sent to banks", "    And the store is notified of the rejection"]
+      }
+    },
+    timeout: {
+      msgs: START.concat([
+        m("score", "pipe", "reply", "OK", "OK"),
+        m("pipe", "bankA", "async", "заявка", "application"),
+        m("bankA", "pipe", "timeout", "нет ответа 60 с", "no answer in 60 s", "warn"),
+        m("pipe", "bankA", "async", "повтор, тот же ключ", "retry, same key", "warn"),
+        m("bankA", "pipe", "timeout", "снова нет ответа", "still no answer", "warn"),
+        m("pipe", "bankB", "async", "заявка", "application"),
+        m("bankB", "pipe", "reply", "200", "200"),
+        self("pipe", "справочник: 200 → APPROVED", "lookup: 200 → APPROVED"),
+        m("pipe", "store", "async", "событие: APPROVED", "event: APPROVED", "ok"),
+        m("bankA", "pipe", "reply", "поздний A_OK → журнал", "late A_OK → log only", "muted")
+      ]),
+      focus: {
+        ru: "Сколько ждём ответа, сколько раз повторяем, куда отправляем заявку дальше и что делаем с поздним ответом первого банка.",
+        en: "How long we wait, how many retries, where the application goes next and what happens to the first bank's late answer."
+      },
+      bdd: {
+        ru: ["  Сценарий: Банк не отвечает вовремя", "    Дано заявка отправлена в Банк A", "    Когда Банк A не отвечает 60 секунд", "    Тогда запрос в Банк A повторяется один раз", "    И повтор не создаёт в банке вторую заявку", "    Когда Банк A снова не отвечает", "    Тогда заявка отправляется в Банк B", "    И поздний ответ Банка A сохраняется в журнале", "    И не меняет статус заявки"],
+        en: ["  Scenario: Bank does not respond in time", "    Given the application has been sent to Bank A", "    When Bank A does not respond within 60 seconds", "    Then the request to Bank A is retried once", "    And the retry does not create a second application at the bank", "    When Bank A still does not respond", "    Then the application is sent to Bank B", "    And a late answer from Bank A is logged", "    And it does not change the application status"]
+      }
+    },
+    repeat: {
+      msgs: [
+        m("store", "pipe", "call", "POST /applications", "POST /applications"),
+        self("pipe", "найдена активная заявка клиента", "client has an active application", "warn"),
+        m("pipe", "store", "reply", "409 · ACTIVE_APPLICATION_EXISTS", "409 · ACTIVE_APPLICATION_EXISTS", "warn"),
+        note(["score", "bankA", "bankB"], "новая заявка не создаётся", "no new application is created")
+      ],
+      focus: {
+        ru: "Как опознаём того же клиента, сколько живёт активная заявка и что магазин показывает клиенту вместо новой заявки.",
+        en: "How we recognise the same client, how long an application stays active and what the store shows instead of a new one."
+      },
+      bdd: {
+        ru: ["  Сценарий: Повторная заявка с изменёнными данными", "    Дано у клиента есть заявка на рассмотрении", "    Когда магазин отправляет новую заявку этого клиента", "    И в анкете указан другой доход", "    Тогда новая заявка не создаётся", "    И магазин видит номер и статус текущей заявки"],
+        en: ["  Scenario: Repeated application with changed data", "    Given the client has an application under review", "    When the store submits a new application for this client", "    And the form states a different income", "    Then no new application is created", "    And the store sees the number and status of the current one"]
+      }
+    }
+  };
+  var FEATURE = { ru: "Функция: Рассмотрение POS-заявки", en: "Feature: POS application review" };
+  var KW = /^(\s*)(Функция:|Сценарий:|Дано|Когда|Тогда|И|Feature:|Scenario:|Given|When|Then|And)(?=\s|$)/;
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("seq");
+  var curSc = "approve";
+
+  function el(name, attrs, text) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function head(g, x, y, dir, open) {
+    var pts = (x - dir * 9) + "," + (y - 4.5) + " " + x + "," + y + " " + (x - dir * 9) + "," + (y + 4.5);
+    g.appendChild(el(open ? "polyline" : "polygon", { points: pts, "class": "m-head" + (open ? " open" : "") }));
+  }
+
+  function renderSeq(animate) {
+    var sc = SC[curSc];
+    var top = 16, headH = 34, startY = 88, row = 38;
+    var H = startY + sc.msgs.length * row - 8;
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    svg.setAttribute("viewBox", "0 0 820 " + H);
+
+    ORDER.forEach(function (k) {
+      svg.appendChild(el("line", { x1: X[k], y1: top + headH, x2: X[k], y2: H - 4, "class": "ll-line" }));
+      svg.appendChild(el("rect", { x: X[k] - 62, y: top, width: 124, height: headH, rx: 6, "class": "ll-box" }));
+      svg.appendChild(el("text", { x: X[k], y: top + headH / 2 + 4.5, "text-anchor": "middle", "class": "ll-name" }, LL[k][current]));
+    });
+
+    var n = 0;
+    sc.msgs.forEach(function (msg, i) {
+      var y = startY + i * row;
+      var g = el("g", { "class": "msg " + (msg.tone || "") + (animate ? " in" : "") });
+      if (animate) g.style.animationDelay = (i * 70) + "ms";
+      if (msg.t === "note") {
+        var xs = msg.over.map(function (k) { return X[k]; });
+        var nx1 = Math.min.apply(null, xs) - 58, nx2 = Math.max.apply(null, xs) + 58;
+        g.appendChild(el("rect", { x: nx1, y: y - 13, width: nx2 - nx1, height: 24, rx: 4, "class": "m-note" }));
+        g.appendChild(el("text", { x: (nx1 + nx2) / 2, y: y + 4, "text-anchor": "middle", "class": "m-note-t" }, msg.l[current]));
+        svg.appendChild(g);
+        return;
+      }
+      n += 1;
+      var label = n + ". " + msg.l[current];
+      if (msg.t === "self") {
+        var x = X[msg.f];
+        g.appendChild(el("path", { d: "M" + x + " " + (y - 9) + " H" + (x + 34) + " V" + (y + 9) + " H" + (x + 9), "class": "m-line" }));
+        head(g, x + 1, y + 9, -1, false);
+        g.appendChild(el("text", { x: x + 44, y: y + 4, "class": "m-label" }, label));
+      } else {
+        var x1 = X[msg.f], x2 = X[msg.to], dir = x2 > x1 ? 1 : -1;
+        if (msg.t === "timeout") {
+          var ex = x2 - dir * 40;
+          g.appendChild(el("line", { x1: x1, y1: y, x2: ex, y2: y, "class": "m-line dashed" }));
+          g.appendChild(el("path", { d: "M" + (ex - 5) + " " + (y - 5) + " L" + (ex + 5) + " " + (y + 5) + " M" + (ex - 5) + " " + (y + 5) + " L" + (ex + 5) + " " + (y - 5), "class": "m-line" }));
+          g.appendChild(el("text", { x: (x1 + ex) / 2, y: y - 7, "text-anchor": "middle", "class": "m-label" }, label));
+        } else {
+          var filled = msg.t === "call";
+          g.appendChild(el("line", { x1: x1, y1: y, x2: x2 - dir * (filled ? 2 : 0), y2: y, "class": "m-line" + (msg.t === "reply" ? " dashed" : "") }));
+          head(g, x2, y, dir, !filled);
+          g.appendChild(el("text", { x: (x1 + x2) / 2, y: y - 7, "text-anchor": "middle", "class": "m-label" }, label));
+        }
+      }
+      svg.appendChild(g);
+    });
+  }
+
+  function escHtml(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+  function renderBdd() {
+    var lines = [FEATURE[current], ""].concat(SC[curSc].bdd[current]);
+    document.getElementById("bdd").innerHTML = lines.map(function (line) {
+      var mm = line.match(KW);
+      var rest = escHtml(mm ? line.slice(mm[0].length) : line).replace(/"[^"]*"/g, function (q) { return '<span class="q">' + q + "</span>"; });
+      return mm ? escHtml(mm[1]) + '<span class="kw">' + escHtml(mm[2]) + "</span>" + rest : rest;
+    }).join("\n");
+  }
+
+  function renderFlow(animate) {
+    renderSeq(animate);
+    renderBdd();
+    document.getElementById("focus").textContent = SC[curSc].focus[current];
+    document.querySelectorAll(".scn").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-sc") === curSc));
+    });
+  }
+  document.querySelectorAll(".scn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      curSc = b.getAttribute("data-sc");
+      renderFlow(true);
+    });
+  });
+
+  /* ---------- tabs ---------- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  function selectTab(tab, focus) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute("aria-selected", String(on));
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+    });
+    if (focus) tab.focus();
+  }
+  tabs.forEach(function (t, i) {
+    t.addEventListener("click", function () { selectTab(t, false); });
+    t.addEventListener("keydown", function (e) {
+      var d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+      if (!d) return;
+      e.preventDefault();
+      selectTab(tabs[(i + d + tabs.length) % tabs.length], true);
+    });
+  });
+
+  /* ---------- OpenAPI / event ---------- */
+  var YAML_REST = {
+    ru: [
+      "openapi: 3.0.3",
+      "info:",
+      "  title: POS Applications API",
+      "  version: 1.2.0",
+      "  description: Пример на условных данных",
+      "paths:",
+      "  /applications:",
+      "    post:",
+      "      summary: Создать заявку на POS-кредит",
+      "      parameters:",
+      "        - name: Idempotency-Key",
+      "          in: header",
+      "          required: true",
+      "          description: Повтор с тем же ключом вернёт исходный ответ",
+      "          schema: { type: string, format: uuid }",
+      "      requestBody:",
+      "        required: true",
+      "        content:",
+      "          application/json:",
+      "            schema: { $ref: '#/components/schemas/ApplicationRequest' }",
+      "      responses:",
+      "        '202':",
+      "          description: Заявка принята в статусе NEW, итог придёт событием",
+      "        '409':",
+      "          description: У клиента уже есть активная заявка",
+      "          content:",
+      "            application/json:",
+      "              schema: { $ref: '#/components/schemas/Error' }",
+      "        '422':",
+      "          description: Анкета не прошла проверку формата",
+      "components:",
+      "  schemas:",
+      "    ApplicationStatus:",
+      "      type: string",
+      "      enum: [NEW, SCORING, SENT_TO_BANK, APPROVED, REJECTED, EXPIRED]",
+      "    Error:",
+      "      type: object",
+      "      required: [code, message]",
+      "      properties:",
+      "        code: { type: string, example: ACTIVE_APPLICATION_EXISTS }",
+      "        message: { type: string }",
+      "        activeApplicationId: { type: string, format: uuid }",
+      "    # ApplicationRequest опущена для краткости"
+    ],
+    en: null
+  };
+  YAML_REST.en = YAML_REST.ru.map(function (l) {
+    return l
+      .replace("Пример на условных данных", "Illustrative example")
+      .replace("Создать заявку на POS-кредит", "Create a POS loan application")
+      .replace("Повтор с тем же ключом вернёт исходный ответ", "A retry with the same key returns the original response")
+      .replace("Заявка принята в статусе NEW, итог придёт событием", "Accepted with status NEW, the outcome arrives as an event")
+      .replace("У клиента уже есть активная заявка", "The client already has an active application")
+      .replace("Анкета не прошла проверку формата", "The form failed format validation")
+      .replace("ApplicationRequest опущена для краткости", "ApplicationRequest omitted for brevity");
+  });
+  var YAML_EVENT = {
+    ru: [
+      "# ключ сообщения: applicationId",
+      "# событие на каждую смену единого статуса",
+      "applicationId: 7f3c9a2e-41d8-4b6a-9e0f-2c5d8a1b3e47",
+      "status: APPROVED",
+      "previousStatus: SENT_TO_BANK",
+      "bankCode: BANK_B",
+      "bankRawStatus: '200'",
+      "reasonCode: null",
+      "occurredAt: 2026-10-12T10:15:04Z"
+    ]
+  };
+  YAML_EVENT.en = YAML_EVENT.ru.map(function (l) {
+    return l.replace("ключ сообщения: applicationId", "message key: applicationId")
+      .replace("событие на каждую смену единого статуса", "one event per unified status change");
+  });
+
+  function hlLine(line) {
+    var c = line.match(/^(\s*)(#.*)$/);
+    if (c) return escHtml(c[1]) + '<span class="c">' + escHtml(c[2]) + "</span>";
+    var mm = line.match(/^(\s*(?:-\s+)?)([^:\s][^:]*?):(\s.*|$)/);
+    if (!mm) return escHtml(line);
+    var rest = mm[3], trimmed = rest.trim(), restHtml;
+    if (!trimmed || trimmed[0] === "{" || trimmed[0] === "[") {
+      restHtml = escHtml(rest).replace(/'[^']*'/g, function (q) { return '<span class="s">' + q + "</span>"; });
+    } else {
+      restHtml = escHtml(rest.slice(0, rest.length - rest.replace(/^\s+/, "").length)) + '<span class="s">' + escHtml(trimmed) + "</span>";
+    }
+    return escHtml(mm[1]) + '<span class="k">' + escHtml(mm[2]) + "</span>:" + restHtml;
+  }
+  function renderYaml() {
+    document.getElementById("yaml-rest").innerHTML = YAML_REST[current].map(hlLine).join("\n");
+    document.getElementById("yaml-event").innerHTML = YAML_EVENT[current].map(hlLine).join("\n");
+  }
+
+  /* ---------- status reference table ---------- */
+  var MAP = [
+    ["BANK_A", "A_WAIT", "SENT_TO_BANK"], ["BANK_A", "A_OK", "APPROVED"], ["BANK_A", "A_DECL", "REJECTED"], ["BANK_A", "A_EXP", "EXPIRED"],
+    ["BANK_B", "102", "SENT_TO_BANK"], ["BANK_B", "200", "APPROVED"], ["BANK_B", "403", "REJECTED"], ["BANK_B", "410", "EXPIRED"]
+  ];
+  var BANK_C = [
+    ["BANK_C", "in_review", "SENT_TO_BANK"], ["BANK_C", "manual_check", "SENT_TO_BANK"], ["BANK_C", "approved_final", "APPROVED"],
+    ["BANK_C", "denied", "REJECTED"], ["BANK_C", "offer_expired", "EXPIRED"]
+  ];
+  var bankC = false, fresh = false, hl = null;
+  var MAP_TEXT = {
+    ru: { add: "Подключить Банк C", remove: "Отключить Банк C", before: "Подключены банки A и B: 8 строк в справочнике.", after: "Банк C подключён: +5 строк в справочнике. Схема базы и код конвейера не менялись." },
+    en: { add: "Connect Bank C", remove: "Disconnect Bank C", before: "Banks A and B are connected: 8 rows in the reference table.", after: "Bank C connected: +5 rows in the reference table. No database schema or pipeline code changes." }
+  };
+  function renderMap() {
+    var rows = MAP.concat(bankC ? BANK_C : []);
+    document.getElementById("map-body").innerHTML = rows.map(function (r) {
+      var cls = [];
+      if (fresh && r[0] === "BANK_C") cls.push("new");
+      if (hl && r[2] !== hl) cls.push("dim");
+      return '<tr class="' + cls.join(" ") + '"><td>' + r[0] + "</td><td>" + r[1] + '</td><td><button type="button" class="pill ' + r[2] + '" data-st="' + r[2] + '" aria-pressed="' + (hl === r[2]) + '">' + r[2] + "</button></td></tr>";
+    }).join("");
+    document.getElementById("st-rows").textContent = rows.length;
+    document.getElementById("add-bank").textContent = MAP_TEXT[current][bankC ? "remove" : "add"];
+    document.getElementById("map-note").textContent = MAP_TEXT[current][bankC ? "after" : "before"];
+  }
+  document.getElementById("add-bank").addEventListener("click", function () {
+    bankC = !bankC;
+    fresh = bankC;
+    renderMap();
+    fresh = false;
+  });
+  document.getElementById("map-body").addEventListener("click", function (e) {
+    var b = e.target.closest(".pill");
+    if (!b) return;
+    var st = b.getAttribute("data-st");
+    hl = hl === st ? null : st;
+    renderMap();
+  });
+
+  /* ---------- language ---------- */
+  function setLang(lang, save) {
+    current = lang;
+    body.classList.toggle("lang-en", lang === "en");
+    document.documentElement.lang = lang;
+    document.title = titles[lang];
+    document.querySelectorAll("[data-set-lang]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-set-lang") === lang));
+    });
+    document.getElementById("copy-msg").textContent = "";
+    renderFlow(false);
+    renderYaml();
+    renderMap();
+    if (save) { try { localStorage.setItem("vizitka-lang", lang); } catch (e) {} }
+  }
+
+  var hash = (location.hash || "").slice(1).toLowerCase();
+  var lang = (hash === "en" || hash === "ru") ? hash : null;
+  if (!lang) { try { lang = localStorage.getItem("vizitka-lang"); } catch (e) {} }
+  if (lang !== "en" && lang !== "ru") {
+    var nav = (navigator.language || "ru").toLowerCase();
+    lang = /^(ru|uk|be|kk|ky|uz)/.test(nav) ? "ru" : "en";
+  }
+  setLang(lang, false);
+
+  document.querySelectorAll("[data-set-lang]").forEach(function (b) {
+    b.addEventListener("click", function () { setLang(b.getAttribute("data-set-lang"), true); });
+  });
+
+  /* ---------- copy Telegram handle ---------- */
+  var handle = document.getElementById("tg-handle");
+  var msg = document.getElementById("copy-msg");
+  function selectHandle() {
+    var range = document.createRange();
+    range.selectNodeContents(handle);
+    var sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+  }
+  document.getElementById("copy-tg").addEventListener("click", function () {
+    var done = function () { msg.textContent = copied[current]; };
+    try {
+      navigator.clipboard.writeText(handle.textContent).then(done, selectHandle);
+    } catch (e) { selectHandle(); }
+  });
+})();
+</script>
+</body>
+</html>
