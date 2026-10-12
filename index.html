@@ -416,12 +416,20 @@ table.alt { border-collapse: collapse; width: 100%; min-width: 580px; font-size:
           <p><span class="ru">Отказ скоринга, таймаут банка, повторная заявка с изменёнными данными попадают в требования заранее, а не всплывают дефектами на приёмке.</span><span class="en">Scoring rejection, a bank timeout, a repeated application with changed data go into requirements up front instead of surfacing as defects at acceptance.</span></p>
         </li>
         <li>
+          <h3><span class="ru">Надёжность закладываю в требования</span><span class="en">Reliability is part of the requirements</span></h3>
+          <p><span class="ru">Описываю нефункциональные требования: доступность, восстановление после сбоев, режимы деградации. В интеграционные контракты закладываю идемпотентность, чтобы повтор запроса не создавал дубль.</span><span class="en">I specify non-functional requirements: availability, recovery after failures, degradation modes. Integration contracts are idempotent, so a retried request never creates a duplicate.</span></p>
+        </li>
+        <li>
           <h3><span class="ru">Контракт раньше кода</span><span class="en">Contract before code</span></h3>
           <p><span class="ru">API уходит в разработку с готовым контрактом в OpenAPI и тест-кейсами. Интеграции проверяю сам: Postman, SoapUI, логи в Kibana и Graylog.</span><span class="en">An API goes to development with a ready OpenAPI contract and test cases. I check integrations myself: Postman, SoapUI, logs in Kibana and Graylog.</span></p>
         </li>
         <li>
           <h3><span class="ru">Решения записаны в ADR</span><span class="en">Decisions are written down in ADRs</span></h3>
           <p><span class="ru">Споры о принятых решениях снимает база ADR, а новые люди входят в контекст по документации, а не через расспросы.</span><span class="en">The ADR base settles arguments about past decisions, and new people get up to speed from documents rather than by asking around.</span></p>
+        </li>
+        <li>
+          <h3><span class="ru">Кросс-ревью аналитики</span><span class="en">Cross-review of analysis</span></h3>
+          <p><span class="ru">Провожу кросс-ревью аналитической документации коллег, на одном из проектов ввёл его как стандарт команды. Пробелы и ошибки в требованиях находятся до того, как задача уходит в разработку.</span><span class="en">I cross-review colleagues' analysis docs and made it a team standard on one project. Gaps and errors in requirements surface before a task goes to development.</span></p>
         </li>
         <li>
           <h3><span class="ru">Типовое решение вместо разовой проработки</span><span class="en">A standard path instead of one-off design</span></h3>
@@ -635,12 +643,14 @@ table.alt { border-collapse: collapse; width: 100%; min-width: 580px; font-size:
         <ul class="ru">
           <li>Свёл разрозненную логику кредитного конвейера в схемы AS IS и TO BE в BPMN и закрепил их как источник правды: владелец шага, точки отказа и повторный вход клиента решаются по схеме.</li>
           <li>Проектирую синхронные и асинхронные интеграции core-системы с банками-партнёрами (REST API, OpenAPI 3.0, Kafka, RabbitMQ), отвечаю за контракт на стороне аналитики. Ввёл единый формат API-контрактов и фиксацию решений в ADR вместо устных договорённостей.</li>
+          <li>Формулирую нефункциональные требования (доступность, восстановление после сбоев, режимы деградации) и закладываю идемпотентность в интеграционные контракты.</li>
           <li>Внедрил системное тестирование API в SoapUI, веду мониторинг и разбор инцидентов при подключении новых каналов.</li>
           <li>Формирую требования к скорингу и антифроду. Негативные сценарии описываю до старта разработки.</li>
         </ul>
         <ul class="en">
           <li>Consolidated scattered credit pipeline logic into AS IS / TO BE BPMN schemes and made them the source of truth for step ownership, failure points and repeated client entry.</li>
           <li>Design sync and async integrations between the core system and partner banks (REST API, OpenAPI 3.0, Kafka, RabbitMQ) and own the contract on the analysis side. Introduced a single API contract format and ADRs instead of verbal agreements.</li>
+          <li>Specify non-functional requirements (availability, recovery after failures, degradation modes) and build idempotency into integration contracts.</li>
           <li>Introduced system API testing in SoapUI; monitor and analyze incidents when new channels are connected.</li>
           <li>Define requirements for scoring and anti-fraud, with negative scenarios described before development starts.</li>
         </ul>
