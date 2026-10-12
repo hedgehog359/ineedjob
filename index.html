@@ -145,7 +145,6 @@ h1 {
 .principles li:nth-child(-n+2) { border-top: 0; padding-top: 0; }
 .principles h3 { font: 600 1rem/1.35 var(--f-display); margin: 0; letter-spacing: -.005em; text-wrap: balance; }
 .principles p { margin: 0; color: var(--muted); max-width: 60ch; }
-.from { font: 400 12px/1.4 var(--f-mono); color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
 .job li::marker { color: var(--accent); }
 
 /* experience */
@@ -411,32 +410,26 @@ table.alt { border-collapse: collapse; width: 100%; min-width: 580px; font-size:
         <li>
           <h3><span class="ru">Схема процесса как источник правды</span><span class="en">The process diagram is the source of truth</span></h3>
           <p><span class="ru">Свожу логику в схемы AS IS и TO BE в BPMN. Кто владеет шагом, где точки отказа и что будет при повторном входе клиента, решается по схеме, а не на созвонах.</span><span class="en">I put the logic into AS IS / TO BE diagrams in BPMN. Step ownership, failure points and repeated client entry are settled by the diagram, not in meetings.</span></p>
-          <span class="from"><span class="ru">МигКредит</span><span class="en">MigCredit</span></span>
         </li>
         <li>
           <h3><span class="ru">Негативные сценарии до разработки</span><span class="en">Negative scenarios before development</span></h3>
           <p><span class="ru">Отказ скоринга, таймаут банка, повторная заявка с изменёнными данными попадают в требования заранее, а не всплывают дефектами на приёмке.</span><span class="en">Scoring rejection, a bank timeout, a repeated application with changed data go into requirements up front instead of surfacing as defects at acceptance.</span></p>
-          <span class="from"><span class="ru">МигКредит</span><span class="en">MigCredit</span></span>
         </li>
         <li>
           <h3><span class="ru">Контракт раньше кода</span><span class="en">Contract before code</span></h3>
           <p><span class="ru">API уходит в разработку с готовым контрактом в OpenAPI и тест-кейсами. Интеграции проверяю сам: Postman, SoapUI, логи в Kibana и Graylog.</span><span class="en">An API goes to development with a ready OpenAPI contract and test cases. I check integrations myself: Postman, SoapUI, logs in Kibana and Graylog.</span></p>
-          <span class="from"><span class="ru">Рексофт, МигКредит</span><span class="en">Reksoft, MigCredit</span></span>
         </li>
         <li>
           <h3><span class="ru">Решения записаны в ADR</span><span class="en">Decisions are written down in ADRs</span></h3>
           <p><span class="ru">Споры о принятых решениях снимает база ADR, а новые люди входят в контекст по документации, а не через расспросы.</span><span class="en">The ADR base settles arguments about past decisions, and new people get up to speed from documents rather than by asking around.</span></p>
-          <span class="from"><span class="ru">Рексофт, М.Видео-Эльдорадо</span><span class="en">Reksoft, M.Video-Eldorado</span></span>
         </li>
         <li>
           <h3><span class="ru">Типовое решение вместо разовой проработки</span><span class="en">A standard path instead of one-off design</span></h3>
           <p><span class="ru">Банки-партнёры подключаются по типовому сценарию на общей библиотеке методов. Новый банк добавляется настройкой справочника, без правок схемы и кода.</span><span class="en">Partner banks connect through a standard scenario on a shared method library. A new bank is a reference table entry, with no schema or code changes.</span></p>
-          <span class="from"><span class="ru">М.Видео-Эльдорадо</span><span class="en">M.Video-Eldorado</span></span>
         </li>
         <li>
           <h3><span class="ru">Документация для соседних команд</span><span class="en">Docs for neighbouring teams</span></h3>
           <p><span class="ru">Пишу инструкции для банков-партнёров и поддержки, чтобы спорные случаи и рутинные вопросы не доходили до разработчиков и аналитиков.</span><span class="en">I write guides for partner banks and support so disputed cases and routine questions don't land on developers and analysts.</span></p>
-          <span class="from"><span class="ru">МигКредит, Сбер</span><span class="en">MigCredit, Sber</span></span>
         </li>
       </ul>
     </div>
